@@ -1,0 +1,66 @@
+*{
+    color: #fff;
+}
+body{
+    background-color: #4C3A51;
+    height: 100vh;
+}
+main{
+    width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+header h1{
+    text-align: center;
+}
+.pergunta{
+    width: 500px;
+    height: 300px;
+    border: 2px solid #E7AB79;
+    border-radius: 5px;
+    padding: 10px;
+    display: grid;
+    align-self: center;
+    justify-content: center;
+}
+.bloco-resposta{
+    width: 500px;
+    height: 300px;
+    border: 2px solid #E7AB79;
+    border-radius: 5px;
+    padding: 10px;
+    display: grid;
+    align-self: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.bloco-resposta h1, .bloco-resposta p{
+    text-align: center;
+    margin: auto;
+}
+label{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+input{
+    height: 35px;
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: #000;
+}
+.btn{
+    background-color: #B25068;
+    border: none;
+    border-radius: 5px;
+    width: 420px;
+    height: 55px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
